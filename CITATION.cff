@@ -7,7 +7,7 @@ date-released: 2026-07-15
 license: MIT
 authors:
   - family-names: "Bella"
-repository-code: "https://github.com/belladai36/localsamap"
+repository-code: "https://github.com/belladai36/SAMap_localpattern"
 references:
   - type: article
     title: "Mapping single-cell atlases throughout Metazoa unravels cell type evolution"
