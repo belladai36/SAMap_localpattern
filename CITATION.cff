@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use LocalSAMap, cite this software, SAMap, and the biological source appropriate to your analysis."
+title: "LocalSAMap: calibrated and interpretable cross-species cell-type mapping"
+type: software
+version: 0.1.0
+date-released: 2026-07-15
+license: MIT
+authors:
+  - family-names: "Bella"
+repository-code: "https://github.com/belladai36/localsamap"
+references:
+  - type: article
+    title: "Mapping single-cell atlases throughout Metazoa unravels cell type evolution"
+    authors:
+      - family-names: Tarashansky
+        given-names: Alexander J.
+    journal: eLife
+    year: 2021
+    doi: 10.7554/eLife.66747
+  - type: article
+    title: "Deconstructing the common anteroposterior organisation of adult bilaterian guts"
+    authors:
+      - family-names: Vianello
+        given-names: Stefano Davide
+    year: 2025
+    doi: 10.1101/2025.07.02.662275
