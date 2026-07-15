@@ -27,6 +27,7 @@ cross-species graph + annotations -> calibration and uncertainty
 ```bash
 python -m pip install -e .
 python -m unittest discover -s tests -v
+python scripts/validate_guarantees.py
 ```
 
 The numerical core is implemented in `src/localsamap/statistics.py`.
@@ -46,6 +47,9 @@ The exact statements, assumptions, and proofs are in
 These are statistical guarantees conditional on assumptions. They do not
 guarantee correct cell-type homology, correct annotations, valid batch
 correction, or complete homolog detection.
+
+The deterministic simulation results are published in
+[`validation/guarantee_report.md`](validation/guarantee_report.md).
 
 ## Required citations
 
